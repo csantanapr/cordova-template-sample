@@ -1,0 +1,22 @@
+{
+  "name": "cordova-template-sample",
+  "version": "1.0.0",
+  "description": "Cordova Template for Testing Cordova CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csantanapr/cordova-template-sample.git"
+  },
+  "keywords": [
+    "cordova"
+  ],
+  "author": "Carlos Santana",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/csantanapr/cordova-template-sample/issues"
+  },
+  "homepage": "https://github.com/csantanapr/cordova-template-sample#readme"
+}
