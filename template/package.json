@@ -3,9 +3,17 @@
   "version": "1.0.0",
   "description": "Apache Cordova Application",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apache/cordova-app-hello-world.git"
+  },
+  "license": "Apache-2.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jshint www/**/*.js",
     "preinstall": "echo \"Yay npm preinstall script\" ",
     "postinstall": "echo \"Yay npm postinstall script\" "
+  },
+  "devDependencies": {
+    "jshint": "^2.9.1"
   }
 }
