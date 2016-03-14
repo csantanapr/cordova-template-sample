@@ -4,7 +4,7 @@
   "description": "Cordova Template for Testing Cordova CLI",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jshint index.js template/www/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -19,4 +19,8 @@
     "url": "https://github.com/csantanapr/cordova-template-sample/issues"
   },
   "homepage": "https://github.com/csantanapr/cordova-template-sample#readme"
+  ,
+  "devDependencies": {
+    "jshint": "^2.9.1"
+  }
 }
